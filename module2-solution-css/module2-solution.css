@@ -1,0 +1,176 @@
+ // please change the href with the path while viewing the file in browser//
+ 
+  h1{
+  	font-family: helvetica,arial,san-serif;
+  	text-decoration: underline;
+  	text-align: center;
+  	font-size: 3em;
+  	font-weight: 600;
+  }
+  
+  p{
+  	font-size: 1.1em;
+  	text-align: left;
+  	margin-left:15px;
+  	margin-top: 30px;
+  	margin-right: 10px;
+  }
+
+.container ul{
+ 	padding: 0px;
+ 	margin:0px;
+
+ }
+
+ .container1 ul li{
+ 	list-style: none;
+ 	font-family: helvetica,arial,san-serif;
+ 	float: left;
+ 	width:250px;
+ 	height:200px;
+ 	background:grey;
+ 	margin-right: 5px;
+ 	margin-left: 35px;
+ 	border: 2px solid black;
+ 	margin-top: 20px;
+ 	margin-bottom: 10px;
+ 	box-sizing: border-box;
+ 	font-weight: 600;
+ 	overflow: auto;
+ } 
+
+ .container2 ul li{
+ 	list-style: none;
+ 	font-family: helvetica,arial,san-serif;
+ 	float: left;
+ 	width:250px;
+ 	height:200px;
+ 	background:grey;
+ 	font-weight: 600;
+ 	margin-right: 5px;
+ 	margin-left: 5px;
+ 	border: 2px solid black;
+ 	margin-top: 20px;
+ 	margin-bottom: 10px;
+  	box-sizing: border-box;
+  	overflow: auto;
+
+ } 
+
+ .container3 ul li{
+ 	list-style: none;
+ 	float: left;
+ 	width:250px;
+ 	height:200px;
+ 	font-family: helvetica,arial,san-serif;
+ 	background:grey;
+ 	font-weight: 600;
+ 	margin-left: 5px;
+ 	border: 2px solid black;
+ 	margin-top: 20px;
+    margin-bottom: 10px;
+   	box-sizing: border-box;
+   	overflow: auto;
+
+ } 
+
+ .container1 ul li .title{
+ 	width:30%;
+ 	height:30px;
+ 	background: #ffb3b3;
+  	font-weight: 600;
+  	font-size: 1.5em;	
+ 	line-height: 30px;
+ 	text-align: center;
+ 	float: right;
+ 	border: 1px solid black;
+ }
+
+ .container2 ul li .title{
+ 	width:30%;
+ 	height:30px;
+ 	line-height: 30px;
+    font-size: 1.5em;	
+ 	font-weight: 600; 	
+ 	background: #cc0000;
+ 	color: white;
+ 	text-align: center;
+ 	float: right;
+ 	border: 1px solid black;
+ }
+
+ .container3 ul li .title{
+ 	width:30%;
+ 	height:30px;
+ 	font-weight: 600;  	
+ 	font-size: 1.5em;	
+ 	line-height: 30px;
+ 	background: #ffff99;
+ 	text-align: center;
+ 	float: right;
+ 	border: 1px solid black;
+
+ }
+ 
+ @media (min-width: 992px){
+ 	.container1 ul li{
+ 		width: 30%;
+ 		height: 200px;
+ 	}
+     
+    .container2 ul li{
+ 		width: 30%;
+ 		height: 200px;
+ 	}
+
+
+ 	.container3 ul li{
+ 		height: 200px;
+ 		width: 30%;
+      
+ 	}
+ }
+ @media (max-width: 991px) and (min-width: 768px){
+ 	.container1 ul li{
+     width:45%;
+     height: 50%;
+     margin-bottom: 10px;
+     margin-left: 10px;
+
+ 	}
+
+ 	.container2 ul li{
+ 		width:45%;
+ 		height:50%;
+ 	}
+
+ 	.container3 ul li{
+ 		width:91%;
+ 		float: center;
+ 		margin-left: 10px;
+ 	}
+ }
+ 
+ @media(max-width: 767px){
+
+ 	.container1 ul li{
+ 		width: 80%;
+ 		margin-right: 20px;
+ 		margin-left: 20px;
+ 	}
+
+ 	.container2 ul li{
+ 		width: 80%;
+ 		margin-right: 20px;
+ 		margin-left: 20px;
+
+ 	}
+
+ 	.container3 ul li{
+ 		width: 80%;
+ 		margin-right: 20px;
+ 		margin-left: 20px;
+
+ 	} 
+}
+
